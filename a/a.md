@@ -35,83 +35,12 @@
  ## 4.手动创建一个数据库，提交sql文件<br>
 
 ```
-CREATE DATABASE xi_dian;
+create database samp_db;
+use samp_db;
+create table users(
+	id int unsigned not null auto_increment primary key,
+	username char(10) not null,
+	password char(10) not null);
 
-CREATE TABLE xi_dian.member (
-       id int(11) unsigned not null auto_increment primary key,
-       username varchar(255) not null,
-       password varchar(255)
-       );
-           
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'sz1900599168',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'LeeH0ng',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'WeC9',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'WeiiiiiA',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'ZoEplA',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'loading2772',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'mingmei233',
-       PASSWORD('123456')
-       );
-       
-INSERT INTO xi_dian.member (
-       username,
-       password
-       )
-       VALUES (
-       'sulayman',
-       PASSWORD('123456')
-       );   
+insert into users(username,password) values("DNBAA",PASSWORD("838xxxxx"));
 ```
