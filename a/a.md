@@ -10,7 +10,7 @@ create table users(
 insert into users(username,password) values("DNBAA",PASSWORD("838xxxxx"));
 ```
 a<br>
-```js
+```
 <!DOCTYPE html>
 <html>
 <head>
