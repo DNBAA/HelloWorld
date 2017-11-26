@@ -1,15 +1,4 @@
-<h1>a</h1><br>
-a
-```
-use samp_db;
-create table users(
-	id int unsigned not null auto_increment primary key,
-	username char(10) not null,
-	password char(10) not null);
-
-insert into users(username,password) values("DNBAA",PASSWORD("838xxxxx"));
-```
-a<br>
+<h1>1. 编写一个完整的html登录页面并提交;里面要有登录表单，表单有用户名和密码，点击提交时，使用js做本地验证</h1>
 ```
 <!DOCTYPE html>
 <html>
@@ -41,4 +30,5 @@ Password:<br>
 </form>
 
 </body>
+</html>
 ```
