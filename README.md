@@ -33,7 +33,7 @@
 	
 	</body>
 
- ## 4.手动创建一个数据库，提交sql文件<br>
+## 4.手动创建一个数据库，提交sql文件<br>
 
 ```
 create database samp_db;
