@@ -34,7 +34,9 @@
 
  ## 4.手动创建一个数据库，提交sql文件
 <br>
-```create database samp_db;
+```
+
+create database samp_db;
 use samp_db;
 create table users(
 	id int unsigned not null auto_increment primary key,
