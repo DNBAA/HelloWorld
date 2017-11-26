@@ -9,3 +9,35 @@ create table users(
 
 insert into users(username,password) values("DNBAA",PASSWORD("838xxxxx"));
 ```
+```js
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<script type="text/javascript">
+function validateFrom()
+{
+	var x=document.forms["myForm"]["Username"].value;
+	var y=document.forms["myForm"]["Password"].value;
+	if (x!="admin"||y!="pwd")
+	{
+		alert("账号或密码错误");
+		return false;
+	}
+}
+	
+</script>
+<form name="myForm" onsubmit="return validateFrom()" method="post">
+Username:<br>
+<input type="text" name="Username" >
+<br>
+Password:<br>
+<input type="password" name="Password">
+<br><br>
+<input type="submit" value="登陆">
+</form>
+
+</body>
+```
